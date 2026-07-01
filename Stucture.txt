@@ -1,0 +1,22 @@
+FlockCameraScanner
+├── README.md
+├── LICENSE
+├── FlockCameraScanner.xcodeproj
+├── Server
+│   ├── index.js (Node.js)
+│   └── app.py (Python)
+├── Sources
+│   ├── FlockCameraScanner
+│   │   ├── AppDelegate.swift
+│   │   ├── ContentView.swift
+│   │   ├── FlockCameraScanner.swift
+│   │   ├── FlockMACDatabase.swift
+│   │   ├── KeychainManager.swift
+│   │   └── NotificationManager.swift
+│   └── SecureStorageView.swift
+├── Resources
+│   ├── FlockMACDatabase.plist (Initial local database)
+│   └── Info.plist
+├── Documentation
+│   ├── architecture.md
+│   └── usage.md
